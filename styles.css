@@ -1,0 +1,34 @@
+.green-text-box {
+  color: green;
+  padding: 20px;
+  margin: 20px;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.blue-background {
+  background-color: #34eb43;
+}
+
+h1 {
+  color: red;
+}
+
+.blink-me {
+  animation: blinker 3s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
